@@ -26,6 +26,7 @@ const id = setInterval(()=>{
 
 btn.addEventListener("click", ()=>{
     clearInterval(id);
+     btn.style.display = "none";
 })
 
 
